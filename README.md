@@ -14,4 +14,3 @@ The disk image files are MBR-partioned and either FAT16 or FAT32 formatted.
 ## The Test Suite
 
 [TESTDISK](TESTDISK) contains the actual driver and benchmark test suite.
-
