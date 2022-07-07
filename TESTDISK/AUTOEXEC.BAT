@@ -1,0 +1,5 @@
+@ECHO OFF
+
+VER
+
+\CH375\TEST.BAT
