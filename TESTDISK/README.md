@@ -81,12 +81,14 @@ Currently, the following drivers are included
  * CH375V16.SYS (16-bit driver for the Lo-tech original board)
  * CH375V86.SYS (8086 driver)
  * CH375V88.SYS (8088 driver)
+ * CH375216.SYS (286 16-bit driver for the Lo-tech original board)
 
 
 ## Other included Files
 
 * `DISKTEST.EXE` DOS Disk Tester from [Lo-tech](https://www.lo-tech.co.uk/wiki/DOS_Disk_Tester)
 * `REBOOT.COM` command (sourced many, many years ago from I honestly don't remember from where, sorry!) 
+* `CAPTURE.COM` command by [Jem E. Berkes](http://www.pc-tools.net/)
 
 
 ## Links

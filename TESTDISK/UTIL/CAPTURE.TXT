@@ -1,0 +1,28 @@
+CAPTURE.COM (Screen Capture v2.01)
+Copyright (c) 1996 Jem E. Berkes
+A non-TSR screen capturing utility
+
+        Capture v2.01 is a small program (1,616 bytes) that can take the ASCII
+image on the screen, in its exact colours or attributes, and save it to a file.
+Screen Capture supports both monochrome and colour displays. Screen Capture's
+syntax is as follows:
+
+CAPTURE [play] mode
+mode is either C (for colour), M (for monochrome), or T (for plain text)
+
+(eg. The following command will save a colour text image: CAPTURE C)
+(eg. The following command will play back a colour image: CAPTURE PLAY C)
+
+        If you type play preceding the screen mode, Screen Capture will play
+back the previous recording. A colour capture is saved to the file COLOUR.VID
+in the current directory, and a monochrome screen capture is saved to the file
+MONO.VID. If you switch these files around (i.e. rename a monochrome capture
+file as a colour file) the file will still display normally.
+        A colour and monochrome capture, when played back, will show the text
+on the screen in its original colours and/or attributes. A text capture feature
+was added so that you can capture the text on the screen, regardless of screen
+type, and have it saved to a file (TEXT.VID) which may be edited by any text
+editor. The TEXT.VID file can, of course, be played back if you wish. The plain
+text file may not be renamed as COLOUR.VID or MONO.VID.
+
+http://www.pc-tools.net/

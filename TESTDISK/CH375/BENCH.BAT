@@ -5,6 +5,12 @@ REM Assume failure or premature aborting during previous run
 REM and skip over the currect benchmark accordingly
 IF EXIST \TEMP\BENCH.RUN GOTO DONE
 
+:BOOTLOG
+REM add boot log
+CD \TEMP\%1
+\UTIL\CAPTURE t
+REN TEXT.VID DRIVER.LOG 
+
 :ENUMDRVS
 SET DRIVE=/
 REM NOTE: this implementation is broken in DR DOS
@@ -45,10 +51,17 @@ GOTO DONE
 
 :BENCH
 ECHO Running DiskTest benchmark for "%1" on drive %DRIVE%: ...
+ECHO > \TEMP\BENCH.RUN
 %DRIVE%:
 IF NOT ERRORLEVEL == 0 GOTO FAIL
 A:\UTIL\DISKTEST
 
 :DONE
 A:
+
+REM add benchmark log
+CD \TEMP\%1
+\UTIL\CAPTURE t
+REN TEXT.VID BENCH.LOG 
+
 IF EXIST \TEMP\BENCH.RUN DEL \TEMP\BENCH.RUN
