@@ -102,6 +102,11 @@ Currently, the following drivers are included
 * `CAPTURE.COM` command by [Jem E. Berkes](http://www.pc-tools.net/)
 
 
+## Known Issues
+
+See also [TODO.md](TODO.md)
+
+
 # Attributions
 
 * FreddyV [VCFED forums](https://forum.vcfed.org/index.php?threads/isa-usb-board.76978/post-1263624) for optimizing the drivers
