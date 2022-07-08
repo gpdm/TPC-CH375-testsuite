@@ -102,9 +102,9 @@ Currently, the following drivers are included
 * `CAPTURE.COM` command by [Jem E. Berkes](http://www.pc-tools.net/)
 
 
-## Links
+# Attributions
 
-* FreedyV 022 drivers sourced from [VCFED forums](https://forum.vcfed.org/index.php?threads/isa-usb-board.76978/post-1263624)
-* CH375 drivers sourced from original CD, and from
- * [toughdev](http://www.toughdev.com/content/2018/04/usb-flash-drives-on-8-bit-isa-bus-using-ch375-isb-to-usb-adapter/)
-
+* FreddyV [VCFED forums](https://forum.vcfed.org/index.php?threads/isa-usb-board.76978/post-1263624) for optimizing the drivers
+* [toughdev](http://www.toughdev.com/content/2018/04/usb-flash-drives-on-8-bit-isa-bus-using-ch375-isb-to-usb-adapter/) for his investigations onto the CH375
+* [Tech Tangents](https://www.youtube.com/watch?v=cgtvVi_mjjg) for his video on the CH375
+* [LGR](https://www.youtube.com/watch?v=3W5ydPuqpTg) for his video about the CH375
