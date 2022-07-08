@@ -51,8 +51,9 @@ As such, I decidedly left away any advanced features, such as
 
 * dynamic startup menus
 * modern BATCH functionalities, such as FOR loops, etc
+* memory managers (HIMEM, EMM386, DOSMAX, etc)
 
-This allows the BATCH files to run on a broader range of different DOS versions,
+This allows the test suite to run on a broader range of different DOS versions,
 and you don't need to care for too many differences between like MS-DOS, FreeDOS, DR DOS, etc.
 
 
@@ -66,6 +67,16 @@ also limiting the capacity on the USB key, because these old DOS versions can't 
 
 Your mileage may vary.
 I'm welcoming all contributions to improve things.
+
+
+## Are Logs created?
+
+Yes. `CAPTURE.COM` is run to capture the boot log/driver status, and the benchmark results.
+
+The results are stored to the `\TEMP\<DRIVER VERSION>\` directory as `DRIVER.LOG` and `BENCH.LOG` respectively.
+
+The logs will typically consume some 4 KiB per test run, so with the current number of 8 device drivers,
+you need around 30-40 KiB free disk space on your boot disk, to store the logs.
 
 
 ## Included Drivers
