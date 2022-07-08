@@ -25,6 +25,10 @@ ECHO > \TEMP\COMPLETE
 
 :COMPLETE
 ECHO Benchmarks are completed. No further steps are taken.
+ECHO Output logs are located in:
+ECHO.
+ECHO     \TEMP\CH375*
+ECHO.
 ECHO If you want to rerun, then remove the stage files like this:
 ECHO.
 ECHO     DEL \TEMP\COMPLETE 
@@ -35,6 +39,7 @@ ECHO     \TEMP\CH375*\*.LOG
 ECHO     \TEMP\CH375*
 ECHO.
 ECHO Good bye.
+CD \TEMP
 GOTO DONE
 
 :DONE
