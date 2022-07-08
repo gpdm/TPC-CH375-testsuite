@@ -29,9 +29,11 @@ ECHO If you want to rerun, then remove the stage files like this:
 ECHO.
 ECHO     DEL \TEMP\COMPLETE 
 ECHO.
-ECHO     DEL \TEMP\CH*\*.LOG
-ECHO     RD  \TEMP\CH*
-ECHO
+ECHO  Also remove:
+ECHO.
+ECHO     \TEMP\CH375*\*.LOG
+ECHO     \TEMP\CH375*
+ECHO.
 ECHO Good bye.
 GOTO DONE
 
