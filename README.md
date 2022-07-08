@@ -5,7 +5,7 @@ This is a DOS testsuite consisting of BATCH files, to assert different driver ve
 
 ## Disk Images
 
-[Disk Images](Disk Images) contains some ready-made disk image files,
+[Disk Images](./Disk%20Images) contains some ready-made disk image files,
 which can be transferred over to USB keys.
 
 The disk image files are MBR-partioned and either FAT16 or FAT32 formatted.
@@ -13,4 +13,4 @@ The disk image files are MBR-partioned and either FAT16 or FAT32 formatted.
 
 ## The Test Suite
 
-[TESTDISK](TESTDISK) contains the actual driver and benchmark test suite.
+[TESTDISK](./TESTDISK) contains the actual driver and benchmark test suite.
